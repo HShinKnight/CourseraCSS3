@@ -1,0 +1,31 @@
+bhheader
+{
+	padding: 20px;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+	font-size: 15px;
+}
+h1
+{
+	text-align: center;
+	color: #1a5bbc;
+}
+h2
+{
+	color: #bc1a7b;
+}
+section
+{
+	background: #ff99999e;
+	color: #7f3f54;
+}
+link
+{
+	background:#18a1e282;
+	color: #18a1e2;
+}
+image
+{
+	display: none;
+}
