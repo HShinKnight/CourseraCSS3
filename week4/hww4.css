@@ -1,0 +1,103 @@
+body{
+    margin:5px;
+    padding:2px;
+}
+table{
+    margin: auto;
+    padding: 10px;
+    width:75%;
+    height:70vh;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+th{
+    background-color:#8FA45F;
+    border-radius: 5px 5px 0px 0px;
+    color:#FFFFFF;
+    border-bottom: 2px solid;
+    border-color:#808000;
+    padding:5px;
+    background-image:linear-gradient(top, #B1C596, #8FA45F);
+    background-image:-webkit-linear-gradient(top, #B1C596, #8FA45F);
+    background-image:-moz-linear-gradient(top, #B1C596, #8FA45F);
+    background-image:-o-linear-gradient(top, #B1C596, #8FA45F);
+}
+th:first-child{
+    text-align: left;
+    
+}
+tr{
+    background-color: #E2F5D7;
+    color:#4B4B4B;
+    opacity:0.8;
+}
+tr:hover{
+    opacity:1;
+}
+td{
+    border-radius:2px;
+    padding:5px;
+    color:#4B4B4B;
+    background-color: #E2F5D7;
+    text-shadow:0.2px 0.2px;
+}
+td:nth-child(2), td:nth-child(3){
+    text-align: center;
+}
+header{
+    margin: 0px 2px 0px 5px;
+    color:white;
+    height: 160px;
+    width: 100%;
+    text-align: center;
+    background-image: url("../images/flywheel.jpg"), url("images/flywheel.jpg"), url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+    background-size: cover;
+}
+nav a{
+    margin:2%;
+    font-variant: normal;
+    font-size: x-large;
+    text-align: center;
+    display:inline-block;
+    width:18%;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-radius: 7px;
+    opacity: 0.5;
+    color: black;
+    padding:3px;
+}
+nav .active{
+    background-color:white;
+    opacity:1;
+
+}
+.left{
+    display:inline-block;
+    width:20%;
+    height:70%;
+    margin:0px 5px;
+    background-color: #808000;
+}
+.left img{
+    display:block;
+    width:85%;
+    height:50%;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+.right{
+    display:inline-block;
+    width:78%;
+    height:50%;
+    float: right;
+    margin:0px 5px;
+}
+h1{
+    color:#FFFFFF;
+    text-transform: uppercase;
+}
+h2{
+    text-transform: uppercase;
+}
